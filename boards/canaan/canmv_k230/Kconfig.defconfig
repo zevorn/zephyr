@@ -1,0 +1,9 @@
+# Copyright (c) 2026 Process Mission
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_CANMV_K230
+
+config SYS_CLOCK_TICKS_PER_SEC
+	default 1000
+
+endif # BOARD_CANMV_K230
